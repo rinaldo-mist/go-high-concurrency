@@ -1,4 +1,4 @@
-# Ubersnap Test High Concurrency
+# Golang High Concurrency
 
 ## Prerequisites
 - Visual Studio Code (for easier readibility code, add Go extension as well via marketplace)
@@ -13,6 +13,10 @@
 - POST /api/coupons , body json {"name":"namehere","amount":(amount here)}
 - POST /api/coupons/claim , body json {"user_id":"user id here","coupon_name":"coupon name here"}
 - GET  /api/coupons/{name} , empty body
+
+## Scenario
+- User can only claim same coupon ONCE
+- Each coupon has their LIMITED amount
 
 ## Architecture Notes : Database Design and Locking Strategy
 ### Using Optimistic Locking
