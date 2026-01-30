@@ -33,6 +33,7 @@ Endpoint:
 - POST /api/coupons/claim
 - GET  /api/coupons/{name}
 
+Tech stacks:
 - Language   : Golang
 - Framework  : Echo
 - Database   : Postgres
