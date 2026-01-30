@@ -29,11 +29,11 @@
 - PostgreSQL: localhost:5432
 
 Endpoint:
-POST /api/coupons
-POST /api/coupons/claim
-GET  /api/coupons/{name}
+- POST /api/coupons
+- POST /api/coupons/claim
+- GET  /api/coupons/{name}
 
-Language   : Golang
-Framework  : Echo
-Database   : Postgres
-Dockerized and Kafka (on progress)
+- Language   : Golang
+- Framework  : Echo
+- Database   : Postgres
+- Dockerized and Kafka (on progress)
